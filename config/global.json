@@ -1,0 +1,14 @@
+{
+    "applications": {
+        "WrecktheMedia": {
+            "applicationId": "1MlFlpCslJWzRjZtFfSeUWDRXAS2zbszG2PuQ5Dd", 
+            "masterKey": "ZC4EU5yZkdpbKGmI3BF9CbuodIEo6uJzY32znFT6"
+        }, 
+        "_default": {
+            "link": "WrecktheMedia"
+        }
+    }, 
+    "global": {
+        "parseVersion": "1.3.2"
+    }
+}

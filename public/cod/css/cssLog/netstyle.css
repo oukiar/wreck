@@ -1,0 +1,337 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*
+ * Remove text-shadow in selection highlight: h5bp.com/i
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #f2c2c9;
+    color: #a4003a;
+    text-shadow: none;
+}
+
+::selection {
+    background: #f2c2c9;
+    color: #a4003a;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+ hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between images and the bottom of their containers: h5bp.com/i/440
+ */
+
+ img {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+ fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+ textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Chrome Frame prompt
+   ========================================================================== */
+
+   .chromeframe {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+.loginset { position: absolute; top:89px;   -webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out;}
+
+.menu { width:281px; margin:40px auto; margin-bottom:130px}
+
+.menu p a {  font-family: 'Roboto', sans-serif; font-size:16px; font-weight:500; text-align:center; line-height:23px; color:#fff; float:left}
+
+
+.menu p {  font-family: 'Roboto', sans-serif; font-size:16px; font-weight:500; text-align:center; line-height:23px; color:#fff; float:left;}
+.menu span {  font-family: 'Roboto', sans-serif; font-size:16px; font-weight:500; text-align:center; line-height:23px; color:#fff;float:left;  margin:0px 28px 0px 28px}
+
+
+.formlog { width:405px; margin:0 auto; padding-top:150px}
+.terms { text-align:center; font-family: 'Roboto', sans-serif; font-size:14px; font-weight:400; color:#fff; padding-top:40px}
+.terms a { text-align:center; font-family: 'Roboto', sans-serif; font-size:14px; font-weight:400; color:#fff; padding-top:40px}
+.terms a:hover {  color:#fff}
+
+
+
+textarea,
+input[type="text"],
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="tel"],
+input[type="color"],
+.uneditable-input {
+    width: 280px;
+    height:40px;
+
+   font-family: 'Roboto', sans-serif !important; font-size:16px; font-weight:500; text-align:center; line-height:23px; color:#fff;
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    margin-bottom: 10px;
+
+    box-shadow: none;
+    border-radius: 0;
+    border: 1px solid #ddd;
+    padding: 0 45px 0 15px;
+	
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	background: #5990E9;
+ outline: none;
+ 
+   -webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out;
+  outline: none;
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 2px solid #DDDDDD;
+  
+  -moz-opacity: 0.85;
+    -khtml-opacity: 0.85;
+    opacity: 0.7;
+	
+}
+
+.buttonsblog { background:none; border:none;  font-family: 'Roboto', sans-serif !important; font-size:16px; font-weight:500; text-align:center; color:#fff; outline:none; margin-top:35px}
+
+
+input[type=text]:focus, input[type=password]:focus {
+
+  border: 2px solid #DF8951
+}
+
+
+
+textarea {
+    min-height: 200px;
+    padding-top: 18px;
+}
+
+::-webkit-input-placeholder {
+    font-size: 14px;
+    color: #fff;
+    font-weight: 400;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+    font-size: 14px;
+    color: #fff;
+    font-weight: 400;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+    font-size: 14px;
+    color: #fff;
+    font-weight: 400;
+}
+
+:-ms-input-placeholder {
+    font-size: 14px;
+    color: #fff;
+    font-weight: 400;
+}
+
+.input-field .placeholder {
+    font-size: 14px;
+    color: #fff;
+    font-weight: 400;
+}
+
+.input-field {
+    position: relative;
+    margin: 0;
+}
+
+.input-field:before {
+    position: absolute;
+    right: 22px;
+    top: 22px;
+    color: #aaa;
+}
+
+input.error,
+textarea.error {
+    border: 1px solid #ec3a33;
+}
+
+input.valid,
+textarea.valid {
+    border: 1px solid #7ec0f0;
+}
+
+label.error {
+    position: absolute;
+    bottom: 2px;
+    color: #c57c7e;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+input[disabled], select[disabled], textarea[disabled], input[readonly], select[readonly], textarea[readonly] {
+    background: #b85252;
+    box-shadow: none;
+    color: white;
+
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+    filter: alpha(opacity=70);
+    -moz-opacity: 0.7;
+    -khtml-opacity: 0.7;
+    opacity: 0.7;
+}
+
+
+
+.submit-button {
+    margin-left: 15px;
+}
+
+.spinner-holder {
+    position: relative;
+    top: 8px;
+}
+
+.feedback-text {
+    margin-bottom: 0;
+    line-height: 24px;
+    font-size: 13px;
+    font-style: italic;
+}
+
+
+
+.no-gutter {
+    padding-left:0 !important;
+	padding-right:0 !important;
+}
+ 
+ .harblue { background:url(../img/bluepattern.png) repeat !important}
+ 
+
+
+
+ @media only screen and (max-width:1200px) {
+ 
+ .loginset { top:34px}
+
+
+ }
+
+  @media only screen and (max-width:1024px) {
+ 
+ .loginset { top:40px}
+ .formlog { padding-top:100px;}
+
+
+ }
+
+
+  @media only screen and (max-width:650px) {
+.formlog { width:100%; margin:0 auto; padding-top:60px;}  
+
+.loginset { top:10px !important}
+
+ }
+ 
+ 
+  @media only screen and (max-width:720px) {
+.setwidth { width:100%; margin:0 auto }
+
+ }   
+   
+   
+   
+
+ .loginForm{background: url('../../../web/icons/television.png') no-repeat scroll center; margin-left:55px;}
+ 
+ 
+ .pure-button{display:inline-block;*display:inline;zoom:1;line-height:normal;white-space:nowrap;vertical-align:baseline;text-align:center;cursor:pointer;-webkit-user-drag:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}
+ .pure-button::-moz-focus-inner{padding:0;border:0}
+ .pure-button{font-family:inherit;font-size:100%;*font-size:90%;*overflow:visible;padding:.5em 1em;color:#444;color:rgba(0,0,0,.8);*color:#444;border:1px solid #999;border:0 rgba(0,0,0,0);background-color:#E6E6E6;text-decoration:none;border-radius:2px}
+ .pure-button-hover,
+ .pure-button:hover,
+ .pure-button:focus{filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#1a000000', GradientType=0);background-image:-webkit-gradient(linear,0 0,0 100%,from(transparent),color-stop(40%,rgba(0,0,0,.05)),to(rgba(0,0,0,.1)));background-image:-webkit-linear-gradient(transparent,rgba(0,0,0,.05) 40%,rgba(0,0,0,.1));background-image:-moz-linear-gradient(top,rgba(0,0,0,.05) 0,rgba(0,0,0,.1));background-image:-o-linear-gradient(transparent,rgba(0,0,0,.05) 40%,rgba(0,0,0,.1));background-image:linear-gradient(transparent,rgba(0,0,0,.05) 40%,rgba(0,0,0,.1))}
+ .pure-button:focus{outline:0}
+ .pure-button-active,
+ .pure-button:active{box-shadow:0 0 0 1px rgba(0,0,0,.15) inset,0 0 6px rgba(0,0,0,.2) inset}
+ .pure-button[disabled],
+ .pure-button-disabled,
+ .pure-button-disabled:hover,
+ .pure-button-disabled:focus,
+ .pure-button-disabled:active{border:0;background-image:none;filter:progid:DXImageTransform.Microsoft.gradient(enabled=false);filter:alpha(opacity=40);-khtml-opacity:.4;-moz-opacity:.4;opacity:.4;cursor:not-allowed;box-shadow:none}
+ .pure-button-hidden{display:none}
+ .pure-button::-moz-focus-inner{padding:0;border:0}
+ .pure-button-primary,
+ .pure-button-selected,
+ a.pure-button-primary,
+ a.pure-button-selected{background-color:#0078e7;color:#fff}
+
+ .button-xlarge {
+            font-size: 125%;
+			 border-radius: 13px;
+			  text-decoration:none;
+        }
+		
+	    .button-ylarge {
+	               font-size: 108%;
+	   			 border-radius: 13px;
+				  text-decoration:none;
+				  margin-top:3px;
+				  
+	           }
+		
+		
+		
